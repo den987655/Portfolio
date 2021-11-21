@@ -1,0 +1,74 @@
+// футер
+.footer {
+  background-color: $bgColor;
+  height: 140px;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+}
+.container {
+  margin: 0 auto;
+  width: 1611px;
+}
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 90px;
+  padding: 26px 0;
+  color: $colorText;
+  line-height: 24px;
+  text-transform: $textTransform;
+  .footer__logo {
+    list-style: none;
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 83px;
+  }
+  
+}
+.footer__menu {
+  margin-left: -77px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  
+}
+.footer__link {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  & a:hover {
+    border-bottom: 2px solid $colorText;
+  }
+}
+.footer__menu a {
+  margin-right: 52px;
+  text-decoration: $textDecor;
+  color: $colorText;
+}
+
+.footer__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  & li a:first-child {
+  margin-right: 40px;
+  text-decoration: $textDecor;
+  color: $colorText;
+}
+}
+.footer__text {
+  width: 421px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: right;
+text-transform: uppercase;
+color: #FFFFFF;
+
+
+  & p:first-child{
+    margin-bottom: 10px;
+  }
+}
